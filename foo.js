@@ -24,3 +24,5 @@ function foo (array) {
     return unionIntervs;
   }
 
+  console.log(foo([[0,5], [2,4]]));
+
