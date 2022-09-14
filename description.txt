@@ -1,0 +1,23 @@
+Question 1
+
+Cette fonction retourne l’union des intervalles : merge des tableaux, 
+comme déjà indiqué au exemples et avec un tournage à la main :  
+l’union des intervalles  [7 ,8] U [3,6] U [2,4] = [2,6] [7,8]
+
+
+Question 2
+
+tournage à la main :
+Foo([[0,5], [2,4]])
+Soit array = [[0,5], [2,4]]
+array.lenght = 2
+
+unionIntervs =[] , start=0 ,  end = 5
+i =1 , currStart = 2 , currEnd = 4
+currStart <= end  = false  donc end = 5 et start = 0
+Resultat unionIntervs = [0, 5]
+
+Question 3
+Le temps pour comprendre le fonctionnement de cette fonction à partir des exemples et de metre la logique du code(algorithmiquement): 1h 
+Le temps pour implémenter et tester cette fonction été : 1h et 30 min
+
